@@ -1,0 +1,31 @@
+{
+  "id": "",
+  "version": "1.0.0",
+  "extensions": [
+    {
+      "name": "visual-lucidchart-dumpobject-extension",
+      "title": "VisualLucidChart Dump Object",
+      "products": [
+        "chart",
+        "spark",
+        "teamspaces"
+      ],
+      "codePath": "editorextensions\\visual-lucidchart-dumpobject-extension\\bin\\extension.js",
+      "scopes": [
+        "READ",
+        "WRITE",
+        "DOWNLOAD",
+        "SHOW_MODAL",
+        "CUSTOM_UI",
+        "NETWORK"
+      ]
+    }
+  ],
+  "shapeLibraries": [
+    {
+      "name": "sharevisual",
+      "product": "chart",
+      "lcszPath": "shapelibraries\\sharevisual.lcsz"
+    }      
+  ]
+}
